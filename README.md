@@ -1,0 +1,2 @@
+# WP_PaginationCustomPostType
+WP Pagination CustomPostType
