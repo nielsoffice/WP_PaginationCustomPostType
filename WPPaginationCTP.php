@@ -61,7 +61,7 @@
 
      echo('</div>');
 
-     function sellerBites_pagination($pages = '', $range = 4)
+     function wp_pagination($pages = '', $range = 4)
      {
         
         $showitems = ($range * 2)+1;
@@ -96,6 +96,6 @@
         }
   }
 
-  if (function_exists("sellerBites_pagination")) { sellerBites_pagination($customPostQuery->max_num_pages);  }
+  if (function_exists("wp_pagination")) { wp_pagination($customPostQuery->max_num_pages);  }
 
 ?>
